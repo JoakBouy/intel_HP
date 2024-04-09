@@ -10,7 +10,7 @@ import {
   AbsoluteLinks,
   BurgerMenu,
 } from './styles';
-import raft_logo from '../../../../public/svgs/raft_logo.svg';
+import intelhp_logo from '../../../../public/images/intelhp_logo_resized.jpg';
 import ic_bars from '../../../../public/svgs/ic_bars.svg';
 import { GetStartedButton } from '@/components';
 import AnimatedLink from '@/components/Common/AnimatedLink';
@@ -24,6 +24,7 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
+          <Image src={intelhp_logo} alt="intelhp_logo" priority />
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}
