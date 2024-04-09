@@ -19,7 +19,9 @@ const HealthcareFuture = () => {
                 <MaskText phrases={new Array(info.title)} tag="h3" />
                 <MaskText phrases={new Array(info.details)} tag="p" />
               </TextCtn>
-              <SVGCtn></SVGCtn>
+              <SVGCtn>
+                <img src={info.imageSource} alt={`Image ${i + 1}`} />
+              </SVGCtn>
             </Card>
           ))}
         </CardContainer>

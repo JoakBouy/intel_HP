@@ -6,12 +6,14 @@ export const cardsInfo = [
     details:
       'Harness the power of AI and quantum computing to analyze complex data from IoT wearables and EHRs, enabling precise health predictions and early detection of potential issues.',
     icon: ic_money_send,
+    imageSource: '/images/healthcare.png'
   },
   {
     title: 'Personalized Treatment Plans',
     details:
       'Leverage our advanced algorithms and machine learning techniques to develop personalized treatment plans tailored to individual health profiles and needs.',
     icon: ic_wallet_minus,
+    imageSource: '/images/medical-checkup.png'
   },
 ];
 

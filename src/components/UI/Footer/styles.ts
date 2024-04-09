@@ -28,6 +28,19 @@ export const FooterLogo = styled.div`
       object-fit: contain;
     }
   }
+  span {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+
+    /* Hide text on mobile screens */
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
 `;
 
 export const FooterMainContent = styled.div`

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import raft_footer_logo from '../../../../public/svgs/raft_footer_logo.svg';
+import intelHP_footer_logo from '../../../../public/images/intelhp_logo.jpg';
 import qr_code from '../../../../public/svgs/qr_code.svg';
 import ic_google_playstore from '../../../../public/svgs/ic_google_playstore.svg';
 import ic_baseline_apple from '../../../../public/svgs/ic_baseline_apple.svg';
@@ -44,6 +44,8 @@ const Footer = () => {
     <Wrapper>
       <Inner>
         <FooterLogo>
+          <Image src={intelHP_footer_logo} alt="IntelHP Logo" />
+          <span>INTELHP</span>
         </FooterLogo>
         <FooterMainContent>
           <FooterMiddle>
