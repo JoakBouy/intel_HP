@@ -12,7 +12,7 @@ const Letter = styled.div`
   font-weight: bold;
 
   @media (max-width: 767px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;
 
