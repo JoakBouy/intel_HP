@@ -15,8 +15,8 @@ import RevealCover from '@/components/Common/RevealCover';
 import { Div } from '../Featured/styles';
 import { imageVariants } from '../Featured';
 import { useIsMobile } from '../../../../libs/useIsMobile';
-import medical_banner from '../../../../public/images/medical_banner.jpg';
-import medical_mobile_banner from '../../../../public/images/medical_banner.jpg';
+import medical_banner from '../../../../public/images/ai_medical.jpg';
+import medical_mobile_banner from '../../../../public/images/ai_medical_mobile.jpg';
 import {
   desktopBriefNotePhrase,
   desktopHeaderPhrase,
