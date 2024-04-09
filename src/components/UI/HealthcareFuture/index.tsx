@@ -2,7 +2,7 @@ import { Wrapper, Inner, Header, CardContainer, Card, TextCtn, SVGCtn, Stats, St
 import MaskText from '@/components/Common/MaskText';
 import { cardsInfo, desktopHeaderPhrase, desktopParagraphPhrase, mobileHeaderPhrase, mobileParagraphPhrase, stats } from './constants';
 
-const FinancialFuture = () => {
+const HealthcareFuture = () => {
   return (
     <Wrapper>
       <Inner>
@@ -41,4 +41,4 @@ const FinancialFuture = () => {
   );
 };
 
-export default FinancialFuture;
+export default HealthcareFuture;

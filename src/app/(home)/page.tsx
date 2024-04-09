@@ -1,12 +1,9 @@
 import {
   FAQ,
   Featured,
-  FinancialFuture,
-  FinancilaFreedom,
+  HealthcareFuture,
+  HealtcareBenefits,
   HeroSection,
-  IntroSection,
-  JoinSection,
-  OffersSection,
 } from '@/components';
 
 export default function Home() {
@@ -14,8 +11,8 @@ export default function Home() {
     <main>
       <HeroSection />
       <Featured />
-      <FinancilaFreedom />
-      <FinancialFuture />
+      <HealtcareBenefits />
+      <HealthcareFuture />
       <FAQ />
     </main>
   );
