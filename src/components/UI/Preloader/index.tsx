@@ -10,6 +10,10 @@ import { gsap } from 'gsap';
 const Letter = styled.div`
   font-size: 5rem;
   font-weight: bold;
+
+  @media (max-width: 767px) {
+    font-size: 2rem;
+  }
 `;
 
 const Preloader = ({
