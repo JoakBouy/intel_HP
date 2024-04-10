@@ -45,7 +45,7 @@ const Footer = () => {
       <Inner>
         <FooterLogo>
           <Image src={intelHP_footer_logo} alt="IntelHP Logo" />
-          <span>INTELHP</span>
+          <span>IntelHP</span>
         </FooterLogo>
         <FooterMainContent>
           <FooterMiddle>
