@@ -6,7 +6,7 @@ const GetStartedButton = ({ padding }: { padding: string }) => {
       style={{
         padding: padding,
       }}
-      href="http://localhost:3000/"
+      href="https://blog.intelhp.com/"
       target="_blank"
       rel="noopener noreferrer"
     >

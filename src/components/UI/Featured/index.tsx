@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
-import big_banner from '../../../../public/images/big_banner.jpg'; 
-import featured_mobile_banner from '../../../../public/images/big_banner_mobile.jpg';
+import big_banner from '../../../../public/images/health-monitor.jpg'; 
+import featured_mobile_banner from '../../../../public/images/health-monitor.jpg';
 import ParallaxText from '@/components/Common/ParallaxImages';
 import companies_image from '../../../../public/images/partnership.jpg';
 import { Wrapper, Inner, ImageContainer, ParallaxImages, Div } from './styles';
