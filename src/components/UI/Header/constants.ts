@@ -20,9 +20,10 @@ export const menu = {
     },
   },
 };
+
 export const links = [
   {
-    url: '/',
+    url: '/', 
     linkTo: 'Solutions',
   },
   {

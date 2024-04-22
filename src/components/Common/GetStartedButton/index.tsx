@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { LinkTo } from './styles';
 
 const GetStartedButton = ({ padding }: { padding: string }) => {
@@ -7,9 +6,11 @@ const GetStartedButton = ({ padding }: { padding: string }) => {
       style={{
         padding: padding,
       }}
-      href="/"
+      href="https://blog.intelhp.com/"
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      Get Started
+      Visit Blog
     </LinkTo>
   );
 };
